@@ -16,7 +16,7 @@ with open('README.rst') as f:
 
 install_req = ["lxml"]
 if sys.version_info < (3, 4):
-    install_req += ["enum"]
+    install_req += ["enum34"]
 
 setup(name='odML',
       version=__version__, 
